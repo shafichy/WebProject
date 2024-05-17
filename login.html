@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="login.css" >
 </head>
 <body>
     <Navbar >
@@ -44,11 +45,12 @@
                      <a href="about.html">About Us</a>
                  </li>
                  <li>
-                     <a href="login.php">Login</a>
+                     <a href="login.html">Login</a>
                    </li>
                  <li>
-                     <a href="login.html">Login1</a>
+                     <a href="attendance.html">Attendance</a>
                    </li>
+                 
                </ul>
              </div>
              <div class="navbar-end">
@@ -59,28 +61,84 @@
      </Navbar>
 
      <div>
-        <div class="loginform">
-            <div class="inputgroup topmarginlarge">
-                   <input type="text" id="txtUsername" required>
-                   <label for="txtUsername" id="lblUsername">USER NAME</label>
-            </div>
-
-            <div class="inputgroup topmarginlarge">
-                   <input type="password" id="txtPassword" required>
-                   <label for="txtPassword" id="lblPassword">PASSWORD</label>
-            </div>
-            <div class="divcallforaction topmarginlarge">
-               <button class="btnlogin inactivecolor" id="btnLogin">LOGIN</button>
-            </div>  
+      <div class="hero w-[600px] h-[600px] mx-auto mt-20 rounded-xl bg-base-200">
+        <div class="hero-content flex-col ">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Login now!</h1>
             
-            <div class="diverror topmarginlarge" id="diverror">
-             <label class="errormessage" id="errormessage">ERROR GOES HERE</label>
-            </div>
-   </div>
-   <div class="lockscreen" id="lockscreen">
-      <div class="spinner" id="spinner"></div>
-        <lable class="lblwait topmargin" id="lblwait">PLEASE WAIT</lable>
-   </div>
+          </div>
+          <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 mt-10">
+            <form class="card-body">
+              <div class="form-control">
+                <label for="txtUsername" id="lblUsername" class="label">
+                  <span class="label-text">User Name</span>
+                </label>
+
+                <input type="text" id="txtUsername" placeholder="user name" class="input input-bordered" required />
+              </div>
+
+              <div class="form-control">
+                <label for="txtPassword" id="lblPassword" class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" id="txtPassword" placeholder="password" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+             <a href="attendance.html">   <button class="btn btn-primary inactivecolor" id="btnLogin">Login</button></a>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
      </div>
+
+     <Footer class="mt-10 bg-[#030712]">
+      
+      <div class="container">
+        <div class="p-10">
+          <h1 class="text-white text-center lg:ml-[370px]">Attendance Management System</h1>
+          <div class="col-md-4 lg:ml-[750px] leading-10 text-white">
+            <h5 class="text-white ml-[130px]">Contact Us</h5>
+            <p class="ml-[60px]">Email: shafichy1400@gmail.com</p>
+          
+          
+          </div>
+          <div class="col-md-4 text-center  text-white lg:ml-[330px] mt-10">
+            <h5 class="lg:ml-[50px]">Quick Links</h5>
+            <ul class="flex gap-6 ml-5 lg:ml-[450px] mt-5">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/login.html">Login</a></li>
+              <li><a href="/register">Register</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-center lg:ml-[300px] mt-8 text-white">
+            <h5 class=" lg:ml-[90px]">Connect With Us</h5>
+            <ul class="social-media flex ml-[100px] lg:ml-[570px] gap-8 mt-4">
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="ml-4 lg:ml-[500px] w-[350px] lg:w-[900px]">
+        <div class="row p-8">
+          <div class="col-md-6 text-white text-center  lg:ml-[400px]">
+            <p>&copy; 2024 AttendEase. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-white text-center lg:ml-[400px] mt-3">
+            <p>Terms of Service | Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+  
+    
+  </Footer>
+ <script src="js/jquery.js"></script>
+ <script src="js/login.js"></script>
 </body>
 </html>

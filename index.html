@@ -7,8 +7,10 @@
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" >
 </head>
-<body>
+<body class="">
     
     <Navbar >
        <div class="container mx-auto">
@@ -53,17 +55,23 @@
                   </li>
               </ul>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end flex gp-4">
               <a class="btn">Button</a>
+            
+             
             </div>
           </div>
        </div>
+     
+       
     </Navbar>
+
 
 
   
     <header class="container mx-auto">
-      <h1 class="text-[#131313] text-[50px] m-10 font-bold text-center ">Welcome to the <span class="text-[#1DD100]">Metropolitan</span> University <br> Attendance Management System</h1>
+      <h1 class="text-[#131313] text-2xl lg:text-[50px] m-10 font-bold text-center ">Welcome to the <span class="text-[#1DD100]">Metropolitan</span> University <br> Attendance Management System</h1>
+      
       <marquee class="text-2xl text-center text-[#59C6D2]">Teachers can easily record student attendance for each class session using an intuitive interface. The system supports various <br> <span class="text-[#F78C9C]">methods of attendance capture, including manual entry, barcode scanning, RFID technology, or biometric verification</span></marquee>
         <!-- Banner Section -->
         <div class="container mx-auto mt-10">
@@ -98,9 +106,353 @@
                 </div>
               </div>
         </div>
+
+        <h1 class="text-center mt-20 text-3xl font-bold">Know Your Faculty</h1>
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Yousuf Sir.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">Professor Dr. Yousuf M Islam</p>
+              <p class="ml-20 mb-5">Professor</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Nazrul sir.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="">  Professor Dr. Md. Nazrul Haque Chowdhury</p>
+               <p class="">Dean, School of Science & Technology</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Mukammel sir.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="">   Choudhury M. Mukammel Wahid</p>
+               <p class="">Professor, Department of CSE, Metropolitan University</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Mahfuj Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">Md. Mahfujul Hasan</p>
+              <p class=" mb-5">Associate Professor Head, Dept. of CSE</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Safwan Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-12">  Safwan Uddin Ahmed</p>
+               <p class="ml-12 mb-5">Assistant Professor</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Ananna Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-12"> Tajkia Nuri Ananna</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Archi Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">Archi Arani Basak</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Rafee Sir.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-6">  Md. Mushtaq Shahriyar Rafee</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[150px]" src="Image/Anwara Mam.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">Khudeja Khanom Anwara</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Limon Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-6">   Md. Shamihul Islam Khan Limon</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Rifa Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">  Nabila Jannat Rifa</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img  src="Image/Nasif Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14"> Nasif Istiak Remon</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col lg:flex-row gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Pulok sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">Rishad Amin Pulok</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Iftekhar sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-16">Iftekhar Hussain</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[150px]"  src="Image/Muhtasim Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-12">Dewan Ahmed Muhtasim</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mt-20 flex flex-col lg:flex-row gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Jakaria Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">Abu Jafar Md Jakaria</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Mayami Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-5">Mayami Das Purkayastha Purba</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img  src="Image/Bushra Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-12"> Bushra Azmat Hussain</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Mostafiz Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10"> H M Mostafizur Rahman</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Ruma Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-20">  Ruma Das</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img  src="Image/Sakib Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">    Md. Fahmidur Rahman Sakib</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Mumu Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">Tanjina Ahmed Mumu</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img src="Image/Muzammil Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">  Muhammad Muzammil</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img  src="Image/Moshiur Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">  Moshiur Ahmed</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[120px]" src="Image/Rima Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10">Samia Rahman Rima</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[120px]" src="Image/Ruhul Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-[70px]"> Ruhul Amin</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img  src="Image/Nazrul sir1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14"> Nazrul Islam</p>
+               <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col lg:flex-row  gap-20 ml-[50px] lg:ml-[200px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[120px]" src="Image/Tajbin Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-[70px]">   Tajbin Jahan</p>
+              <p class="ml-20 mb-5">Lecturer</p>
+            </div>
+           
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[120px]" src="Image/Naeem Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-10"> Golam Mostofa Naeem</p>
+               <p class="ml-16 mb-5">Teaching Assistant</p>
+            </div>
+          </div>
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5 hover:border-2 border-black">
+            <figure><img class="w-[120px]" src="Image/Shakib Sir.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">Abdul Wadud Shakib</p>
+               <p class="ml-16 mb-5">Teaching Assistant</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 ml-[50px] lg:ml-[580px] hover:border-2 border-black w-[310px]">
+          <div class="card card-compact w-[300px] bg-slate-100 shadow-xl p-5">
+            <figure><img class="w-[120px]" src="Image/Nowshin Mam.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              
+              <p class="ml-14">Nowshin Sharmin</p>
+               <p class="ml-14 mb-5">Teaching Assistant</p>
+            </div>
+          </div>
+        </div>
+
+
+      
+
     </header>
-    <div class="container mx-auto mt-4">
-        <a href="login.php" class="btn btn-primary">Login</a>
-    </div>
+    <Footer class="mt-10 bg-[#030712]">
+      
+        <div class="container">
+          <div class="p-10">
+            <h1 class="text-white text-center lg:ml-[370px]">Attendance Management System</h1>
+            <div class="col-md-4 lg:ml-[750px] leading-10 text-white">
+              <h5 class="text-white ml-[130px]">Contact Us</h5>
+              <p class="ml-[60px]">Email: shafichy1400@gmail.com</p>
+            
+            
+            </div>
+            <div class="col-md-4 text-center  text-white lg:ml-[330px] mt-10">
+              <h5 class="lg:ml-[50px]">Quick Links</h5>
+              <ul class="flex gap-6 ml-5 lg:ml-[450px] mt-5">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/register">Register</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-center lg:ml-[300px] mt-8 text-white">
+              <h5 class=" lg:ml-[90px]">Connect With Us</h5>
+              <ul class="social-media flex ml-[100px] lg:ml-[570px] gap-8 mt-4">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="ml-4 lg:ml-[500px] w-[350px] lg:w-[900px]">
+          <div class="row p-8">
+            <div class="col-md-6 text-white text-center  lg:ml-[400px]">
+              <p>&copy; 2024 AttendEase. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-white text-center lg:ml-[400px] mt-3">
+              <p>Terms of Service | Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+   
+      
+    </Footer>
+    
 </body>
 </html>
